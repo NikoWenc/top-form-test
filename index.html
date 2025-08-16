@@ -51,7 +51,7 @@
                     </div>
                     <div>
                         <label for="phoneNumber">PHONE NUMBER</label>
-                        <input type="number" name="phoneNumber" id="phoneNumber">
+                        <input type="tel" pattern="[0-9]*" name="phoneNumber" id="phoneNumber">
                     </div>
                     <div>
                         <label for="confirmPass">CONFIRM PASSWORD</label>
@@ -61,9 +61,12 @@
 
             </form>
         </div>
-        <div>
-            <footer></footer>
+
+        <div class="submit-container">
+            <button type="submit" class="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
         </div>
+
     </main>
 </body>
 </html>
