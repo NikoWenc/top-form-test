@@ -96,6 +96,10 @@ body main {
     gap: 1rem;
 }
 
+.form-left #password:invalid,
+.form-right #confirmPass:invalid {
+    border-color: red;
+}
 
 .form-left > div > label,
 .form-right > div > label{
@@ -113,6 +117,10 @@ body main {
     border-radius: 5px;
 }
 
+.form-left > div > input:focus,
+.form-right > div > input:focus{
+    box-shadow: 3px 3px 10px 1px #c0c0c0;
+}
 
 /* main - create account button */
 .submit-container {
