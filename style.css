@@ -4,20 +4,49 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: 'Norse';
+    src: url('/fonts/transfonter.org-20250816-135617/Norse-Bold.woff2') format('woff2'),
+        url('/fonts/transfonter.org-20250816-135617/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     height: 100vh;
     display: flex;
 }
 
+/* aside */
 body aside {
     border: 2px solid black;
     width: 40%;
-    background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+    background-image: url('/images/halie-west-25xggax4bSA-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    padding-top: 30vh;
+    font-size: 3rem;
 }
 
+aside div {
+    border: 2px solid black;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside h1 {
+    font-family: 'Norse';
+    font-size: 8rem;
+    padding-top: 1.5rem;
+}
+
+/* main */
 body main {
     border: 2px solid black;
     width: 60%;
