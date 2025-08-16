@@ -22,7 +22,7 @@ body {
 body aside {
     border: 2px solid black;
     width: 30%;
-    background-image: url('/images/halie-west-25xggax4bSA-unsplash.jpg');
+    background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
