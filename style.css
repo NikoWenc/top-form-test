@@ -31,39 +31,57 @@ body aside {
 }
 
 aside div {
-    border: 2px solid black;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 aside h1 {
     font-family: 'Norse';
-    font-size: 8rem;
+    font-size: 5rem;
     padding-top: 1.5rem;
 }
 
 /* main */
 body main {
-    border: 2px solid black;
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+/* main - section */
+.section-container {
+    padding: 0 0 3.5em 3.5em;
+    width: 60vw;
+}
+
+.section-container section {
+    font-size: 1.6rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* main - form */
 .form-container {
-    padding: 1em 0 1em 2.5em;
+    padding: 1em 0 2.5em 3.5em;
     display: flex;
     flex-direction: column;
     gap: 1.5em;
+    box-shadow: 0px 2px 5px 0px #c0c0c0;
 }
 
 .form-container > form {
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 3em;
+    gap: 5em;
 }
 
 .form-left,
