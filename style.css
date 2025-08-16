@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: 'Norse';
-    src: url('/fonts/transfonter.org-20250816-135617/Norse-Bold.woff2') format('woff2'),
-        url('/fonts/transfonter.org-20250816-135617/Norse-Bold.woff') format('woff');
+    src: url('fonts/transfonter.org-20250816-135617/Norse-Bold.woff2') format('woff2'),
+        url('fonts/transfonter.org-20250816-135617/Norse-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
